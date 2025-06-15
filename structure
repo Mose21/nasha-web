@@ -1,0 +1,54 @@
+mental-health-awareness/
+├── main.html
+├── about.html
+├── resources.html
+├── programs.html
+├── events.html
+├── contact.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── scripts.js
+├── images/
+│   └── [all image assets]
+└── assets/
+    └── [fonts, icons, etc.]
+
+
+  <section class="founders">
+
+      <div class="dennisimage-hover-container">
+        <img src="images/founder001.jpg" alt="dennis munga thuku" width="400px" height="400px" >
+          
+        <div class="overlay-text">
+           <p>jcnce cejjhuhe fjebufufcbe ejbebegfe </p>
+      </div>
+
+       <img src="images/founder001.jpg" alt="dennis munga thuku" width="400px" height="400px" >
+          
+        <div class="overlay-text">
+           <p>jcnce cejjhuhe fjebufufcbe ejbebegfe </p>
+      </div>
+
+      </div>
+
+      
+    
+  </section>
+
+
+        <h1>About Us</h1>
+      <p>
+        NASHA organization is a community-centered non-profit dedicated to enhancing mental health awareness, advocacy, and support across Kenya. We are committed to destigmatizing mental illness, promoting emotional well-being, and building resilient communities through education, outreach, and accessible mental health services.
+      </p>
+
+      <div class="founders">
+        <h2>Our founders</h2>
+
+        <h1>About Us</h1>
+      <p>
+        NASHA organization is a community-centered non-profit dedicated to enhancing mental health awareness, advocacy, and support across Kenya. We are committed to destigmatizing mental illness, promoting emotional well-being, and building resilient communities through education, outreach, and accessible mental health services.
+      </p>
+
+      <div class="founders">
+        <h2>Our founders</h2>

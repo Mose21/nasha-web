@@ -1,0 +1,128 @@
+/* ===== NAVBAR STYLES ===== */
+.navbar {
+  background-color: #004c5f;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .logo {
+  font-size: 2.4rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar .nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-links li a:hover,
+.navbar .nav-links li a.active {
+  color: #e0f7f5;
+  font-weight: bold;
+  border-bottom: #ffffff solid 1.3px;
+  padding-bottom: 5px;
+}
+
+/* ===== HAMBURGER FOR MOBILE ===== */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white
+}
+
+
+.programs .container {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.programs h1 {
+  font-size: 2.5rem;
+  color: #004c5f;
+  margin-bottom: 1rem;
+}
+
+.programs p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.program-list {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.program-card {
+  background-color: #e0f7f5;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.program-card h2 {
+  color: #008891;
+  margin-bottom: 0.5rem;
+}
+
+.program-card p {
+  color: #333;
+}
+
+footer {
+  background-color: #004c5f;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer-container p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.footer-container .socials {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-container .socials a {
+  color: #e0f7f5;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-container .socials a:hover {
+  color: #ffffff;
+  font-weight: bold;
+}
+

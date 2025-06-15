@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | Nasha</title>
+  <link rel="stylesheet" href="css/contact.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">NASHA
+        <img src="images/logo-001.jpg" alt="logo" width="30px" height="30px" >
+      </div>
+      <button class="hamburger" aria-label="Toggle Menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>If you have questions, feedback, or need help, feel free to reach out. We're here for you.</p>
+
+      <div class="contact-wrapper">
+        <form class="contact-form" action="https://formspree.io/f/mdkzojyw" method="POST">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <h2>Reach Us At</h2>
+          <p><strong>Email:</strong> nashacbo254@gmail.com</p>
+          <p><strong>Phone:</strong> +254 745 442633, +254 707 011789</p>
+          <p><strong>Location:</strong> Nairobi, Kenya</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2025 NASHA. All rights reserved.</p>
+      <div class="socials">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+  const form = document.querySelector(".contact-form");
+  const successMsg = document.querySelector(".form-success");
+
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const response = await fetch(form.action, {
+      method: "POST",
+      body: data,
+      headers: {
+        'Accept': 'application/json'
+      }
+    });
+    if (response.ok) {
+      form.reset();
+      successMsg.style.display = "block";
+    } else {
+      alert("Something went wrong. Please try again.");
+    }
+  });
+</script>
+
+
+  <script src="js/contact.js"></script>
+</body>
+</html>

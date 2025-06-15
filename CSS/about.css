@@ -1,0 +1,179 @@
+
+/* Navbar Styles */
+.navbar {
+  background-color: #004c5f;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: relative;
+  z-index: 10;
+}
+
+.navbar .logo {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar .nav-links a:hover,
+.navbar .nav-links a.active {
+  font-weight: bold;
+  border-bottom: #ffffff 1.3px solid;
+  color: #e0f7f5;
+  padding-bottom: 5px;
+}
+
+.about {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.about .container {
+  padding-left: 4rem;
+  padding-right: 60px;
+  line-height: 1.8;
+}
+
+.about h1 {
+  font-size: 2.5rem;
+  color: #004c5f;
+  margin-bottom: 1rem;
+}
+
+.about h2 {
+  margin-top: 2rem;
+  color: #008891;
+}
+
+.about p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+.about .container   {
+  border: solid 1px rgb(234, 227, 227);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 45px;
+  padding: 10px;
+  border-radius: 3%;
+  margin-bottom: 20px;
+}
+.about .container .founders-image img {
+  border-radius: 3%;
+}
+.about .container .founders-summary p {
+  font-size: 15px;
+}
+.about .container1 {
+  border: solid 1px rgb(234, 227, 227);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 45px;
+  padding: 10px;
+  border-radius: 3%;
+}
+.about .container1 .founders-image1 img {
+  border-radius: 3%;
+}
+.about .container1 .founders-summary1 h1 {
+  padding-bottom: 20px;
+}
+.about .container1 .founders-summary1 p {
+  font-size: 15px;
+}
+
+
+.more .about-us {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+.more .our-vision {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+.more .our-mission {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+.more .about-us h1 {
+  font-size: 2.5rem;
+  color: #008891;
+  display: flex;
+  justify-content: center;
+}
+.more .about-us p {
+    display: flex;
+  justify-content: center;
+}
+.more .our-vision h1 {
+  font-size: 2.5rem;
+  color: #008891;
+  display: flex;
+  justify-content: center;
+}
+.more .our-vision p {
+    display: flex;
+  justify-content: center;
+}
+.more .our-mission h1 {
+  font-size: 2.5rem;
+  color: #008891;
+  display: flex;
+  justify-content: center;
+}
+.more .our-mission p {
+    display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: #004c5f;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer-container p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.footer-container .socials {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-container .socials a {
+  color: #e0f7f5;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  border: #ffffff solid 1px;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.footer-container .socials a:hover {
+  color: #ffffff;
+  font-weight: bold;
+}
